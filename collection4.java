@@ -17,7 +17,7 @@ import java.util.*;
           c2.add("Pink");
           System.out.println("List of second array: " + c2);
          
-      // Let join above two list
+      
         ArrayList<String> a = new ArrayList<String>();
         a.addAll(c1);
         a.addAll(c2);
