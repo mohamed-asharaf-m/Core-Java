@@ -21,12 +21,12 @@ class Circle extends Shape
 }
 class generics5
 {
-    //creating a method that accepts only child class of Shape  
+     
     public static void drawShapes (List < ? extends Shape > lists)
     {
         for (Shape s : lists)
         {
-         s.draw ();  //calling method of Shape class by child class instance  
+         s.draw (); 
         }
     }
     public static void main (String args[])
